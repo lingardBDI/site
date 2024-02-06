@@ -1,0 +1,88 @@
+*{
+padding:0;
+margin: 0;
+box-sizing:0;
+}
+body {
+	background-color: #bbbcab;
+	padding: 1rem;
+    }
+header{
+    background: #fff;
+    display: flex;
+	gap: 16px;
+	justify-content: center;
+    padding: 40px;
+}
+a{
+    text-decoration: none;
+    text-transform: none;
+   justify-content: space-between;
+   display: flex;
+   color: #bbbcab;
+   font-family:Arial, Helvetica, sans-serif, sans-serif;
+}
+main .content{
+    padding: 16px;
+    margin: 10px;
+}
+
+nav .navbar{
+    background-color: #0d0d0d;
+    font-size: 32px;
+    display: flex;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+.content{
+    display: flex;
+    gap: 20px;
+    justify-content:flex-end;
+    margin-bottom: 16px;
+}
+.aside{
+    display: flex;
+    height: auto;
+    align-items: center;
+    border-radius: 12px;
+    flex-wrap: wrap;
+    padding: 16px;
+}
+.content .mainn{
+    width: 85%;
+    background: #fff;
+	padding: 16px;
+}
+aside{
+    width: 25%;
+}
+section {
+	background: #fff;
+	padding: 16px;
+    
+    margin-bottom: 8px;
+}
+section img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+header .header1> .h10 {
+font-size: 48px;
+text-transform:capitalize;
+align-items: center;
+padding-left: 20px;
+margin-bottom: 20px;
+}
+
+nav span {
+    display:flex;
+    justify-content: end;
+    }
+     .popural img{
+        padding: 16px;
+        margin: 10px;
+    }
+    
+
+
